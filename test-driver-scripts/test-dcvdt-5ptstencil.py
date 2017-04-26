@@ -6,7 +6,7 @@ import os
 # DEFINITIONS
 dir_index = 39
 nframes_per_dir = 50000
-dt = 5.0*0.75*1.0e-15/2.418884e-17
+dt = 0.75*1.0e-15/2.418884e-17
 
 # Open cv file
 cv_dir_prefix = os.path.join(os.getcwd(), 'cv-traj-data')
