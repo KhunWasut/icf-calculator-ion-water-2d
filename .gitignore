@@ -88,6 +88,18 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# Cython files
+# Cython files and object library files
 *.c
 *.dll
+*.so
+cythonized_devel/
+
+# MTD-GPR Data directories
+zdcvdt-data/
+unsplit-coord-data/
+split-coord-data/
+temp/
+dcvdt-data/
+cv-traj-data/
+dcvdt-all-data/
+mass-data/
